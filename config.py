@@ -21,11 +21,11 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "54000")
 )
 
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002357707746"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002522996453"))
 
-OWNER_ID = int(getenv("OWNER_ID", "8176091341"))
+OWNER_ID = int(getenv("OWNER_ID", "7571913545"))
 
-BOT_USERNAME = getenv("BOT_USERNAME" , "NIKKU_ROBOT")
+BOT_USERNAME = getenv("BOT_USERNAME" , "NOZZLE_MUSIC_BOT")
 
 COMMAND_HANDLER = getenv("COMMAND_HANDLER", "! / .").split()
 
@@ -42,8 +42,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", ""
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/FEELING_SMILEY")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/FEELING_SMILEY")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ABOUT_HYPER_O_P_ll")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+8WONCydgM_pkODA1")
 
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", "True")
